@@ -129,8 +129,8 @@ Created key business metrics:
 * Bar chart comparing regional performance
 * KPI cards summarising store performance
 
-📸 *Screenshot Placeholder – Map Page*
-*Add your screenshot here*
+#### Store Map
+![Store Map](images/map.png)
 
 ---
 
