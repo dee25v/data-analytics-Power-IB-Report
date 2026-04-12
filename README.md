@@ -73,7 +73,7 @@ Created key business metrics:
 * Profit YTD
 
 Below is a screenshot of the data model after the above steps:
-
+![Data Model](model.png)
 
 
 ---
