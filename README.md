@@ -94,8 +94,8 @@ Created key business metrics:
 * Line chart showing revenue trends over time
 * Year slicer for filtering
 
-📸 *Screenshot Placeholder – Executive Summary Page*
-*Add your screenshot here*
+#### Executive Summary Page
+![Executive Summary Page](executive.png)
 
 ---
 
@@ -105,8 +105,8 @@ Created key business metrics:
 * Bar chart showing revenue by region
 * Customer slicer for filtering
 
-📸 *Screenshot Placeholder – Customer Page*
-*Add your screenshot here*
+#### Customer Page
+![Customer Page](customer.png)
 
 ---
 
@@ -118,8 +118,8 @@ Created key business metrics:
 * Quantity analysis chart
 * Product slicer
 
-📸 *Screenshot Placeholder – Product Page*
-*Add your screenshot here*
+#### Product Page
+![Product Page](product.png)
 
 ---
 
