@@ -34,9 +34,6 @@ The final solution is a multi-page interactive dashboard providing insights into
 * Imported datasets (Orders, Products, Stores, Customers) from CSV files
 * Loaded data into Power BI using the **Get Data** feature
 
-📸 *Screenshot Placeholder – Data Import*
-*Add your screenshot here*
-
 ---
 
 ### 🔹 2. Data Cleaning & Transformation
@@ -46,9 +43,6 @@ The final solution is a multi-page interactive dashboard providing insights into
 * Fixed incorrect data types (e.g. Product Quantity from text to number)
 * Cleaned inconsistent region values
 * Combined multiple customer files into one dataset
-
-📸 *Screenshot Placeholder – Power Query Transformations*
-*Add your screenshot here*
 
 ---
 
@@ -64,9 +58,6 @@ The final solution is a multi-page interactive dashboard providing insights into
 * Marked Date table for time intelligence
 * Created a **Measures Table** for calculations
 
-📸 *Screenshot Placeholder – Data Model View*
-*Add your screenshot here*
-
 ---
 
 ### 🔹 4. DAX Measures
@@ -81,8 +72,9 @@ Created key business metrics:
 * Revenue YTD
 * Profit YTD
 
-📸 *Screenshot Placeholder – Measures Table*
-*Add your screenshot here*
+Below is a screenshot of the data model after the above steps:
+
+
 
 ---
 
