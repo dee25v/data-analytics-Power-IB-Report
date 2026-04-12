@@ -1,60 +1,77 @@
 # 📊 Data Analytics Power BI Report
 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat\&logo=github\&logoColor=white)
+
+---
+
 ## 📌 Project Overview
 
-This project focuses on transforming raw business data into meaningful insights using Power BI. The goal was to design an interactive dashboard for a retail company to support data-driven decision-making.
+This project was completed as part of a data analytics case study for a medium-sized international retailer. The goal was to transform raw sales data into actionable insights using Microsoft Power BI.
 
-The report provides insights into:
+The final solution is a multi-page interactive dashboard providing insights into:
 
-* Overall business performance
+* Business performance
 * Customer behaviour
 * Product performance
-* Regional sales distribution
+* Geographic sales distribution
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Technologies Used
 
-* Microsoft Power BI
-* Power Query (data transformation)
+* Microsoft Power BI Desktop
+* Power Query (Data Transformation)
 * DAX (Data Analysis Expressions)
+* CSV Data Sources
+* Data Modelling (Star Schema)
 
 ---
 
-## 📂 Dataset
+## ⚙️ Project Workflow
 
-The dataset consisted of four main tables:
+### 🔹 1. Data Import
 
-* Orders (fact table)
-* Products (dimension table)
-* Customers (dimension table)
-* Stores (dimension table)
+* Imported datasets (Orders, Products, Stores, Customers) from CSV files
+* Loaded data into Power BI using the **Get Data** feature
+
+📸 *Screenshot Placeholder – Data Import*
+*Add your screenshot here*
 
 ---
 
-## 🔄 Data Preparation
-
-The following transformations were applied:
+### 🔹 2. Data Cleaning & Transformation
 
 * Removed unnecessary columns (e.g. Card Number)
-* Split date and time columns
-* Fixed data types (e.g. converting text to numbers)
-* Cleaned inconsistent values
+* Split date and time columns into separate fields
+* Fixed incorrect data types (e.g. Product Quantity from text to number)
+* Cleaned inconsistent region values
 * Combined multiple customer files into one dataset
 
----
-
-## 🧱 Data Modelling
-
-A star schema was created:
-
-* Orders connected to Products, Customers, Stores, and Date tables
-* A custom Date table was created for time analysis
-* Relationships were set as one-to-many
+📸 *Screenshot Placeholder – Power Query Transformations*
+*Add your screenshot here*
 
 ---
 
-## 📊 Key Measures (DAX)
+### 🔹 3. Data Modelling
+
+* Built a **star schema**
+* Created relationships between:
+
+  * Orders → Products
+  * Orders → Customers
+  * Orders → Stores
+* Created a custom **Date table using DAX**
+* Marked Date table for time intelligence
+* Created a **Measures Table** for calculations
+
+📸 *Screenshot Placeholder – Data Model View*
+*Add your screenshot here*
+
+---
+
+### 🔹 4. DAX Measures
+
+Created key business metrics:
 
 * Total Revenue
 * Total Profit
@@ -64,65 +81,91 @@ A star schema was created:
 * Revenue YTD
 * Profit YTD
 
+📸 *Screenshot Placeholder – Measures Table*
+*Add your screenshot here*
+
 ---
 
-## 📈 Report Pages
+## 📊 Dashboard Pages
 
-### 1. Executive Summary
+### 🔹 1. Executive Summary
 
 * KPI cards (Revenue, Profit, Orders, Customers)
-* Revenue trend over time
-* Year filter
+* Line chart showing revenue trends over time
+* Year slicer for filtering
 
-### 2. Customer Detail
+📸 *Screenshot Placeholder – Executive Summary Page*
+*Add your screenshot here*
 
-* Top customers by revenue
-* Revenue by region
-* Customer-level filtering
+---
 
-### 3. Product Detail
+### 🔹 2. Customer Detail Page
 
-* Top-performing products
-* Revenue by category
-* Quantity analysis
+* Table of top customers (sorted by revenue)
+* Bar chart showing revenue by region
+* Customer slicer for filtering
 
-### 4. Store Map
+📸 *Screenshot Placeholder – Customer Page*
+*Add your screenshot here*
 
-* Geographic revenue distribution
-* Regional performance comparison
+---
+
+### 🔹 3. Product Detail Page
+
+* KPI cards (Revenue, Profit, Quantity)
+* Table showing top products (Product Code)
+* Bar chart showing revenue by category
+* Quantity analysis chart
+* Product slicer
+
+📸 *Screenshot Placeholder – Product Page*
+*Add your screenshot here*
+
+---
+
+### 🔹 4. Stores Map Page
+
+* Map visual showing revenue distribution by location
+* Bar chart comparing regional performance
+* KPI cards summarising store performance
+
+📸 *Screenshot Placeholder – Map Page*
+*Add your screenshot here*
 
 ---
 
 ## 🎯 Key Insights
 
-* Identified top-performing regions contributing most revenue
-* Highlighted highest-value customers
-* Determined best-selling products and categories
+* Identified top-performing regions generating the highest revenue
+* Highlighted high-value customers contributing most to sales
+* Determined best-performing products and categories
+* Visualised geographic performance across store locations
 
 ---
 
-## 📌 What I Learned
+## 📚 Skills Demonstrated
 
-* Building data models using star schema
+* Data cleaning and transformation using Power Query
+* Data modelling using star schema design
 * Writing DAX measures for business metrics
-* Designing interactive dashboards
-* Cleaning and transforming raw data
-* Creating user-friendly data visualisations
+* Building interactive dashboards
+* Creating user-friendly visualisations
 
 ---
 
 ## 🚀 Future Improvements
 
-* Add more advanced filters and drill-through functionality
-* Improve visual design and branding
-* Integrate real-time data sources
+* Add navigation buttons between pages
+* Implement advanced DAX calculations
+* Improve dashboard design with themes and icons
+* Add drill-through functionality
 
 ---
 
-## 📁 File Structure
+## 📁 Files
 
-* `.pbix` file (Power BI report)
-* `README.md`
+* Power BI Report (`.pbix`)
+* README.md
 
 ---
 
