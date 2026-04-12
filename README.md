@@ -89,7 +89,6 @@ Below is a screenshot of the data model after the above steps:
 #### Executive Summary Page
 ![Executive Summary Page](executive.png)
 
----
 
 ### 🔹 2. Customer Detail Page
 
@@ -100,7 +99,6 @@ Below is a screenshot of the data model after the above steps:
 #### Customer Page
 ![Customer Page](customer.png)
 
----
 
 ### 🔹 3. Product Detail Page
 
@@ -113,7 +111,6 @@ Below is a screenshot of the data model after the above steps:
 #### Product Page
 ![Product Page](product.png)
 
----
 
 ### 🔹 4. Stores Map Page
 
@@ -156,7 +153,7 @@ Below is a screenshot of the data model after the above steps:
 
 ## 📁 Files
 
-* Power BI Report (`.pbix`)
+* Power BI Report (Data Analytics Power BI Report.pbix)
 * README.md
 
 ---
