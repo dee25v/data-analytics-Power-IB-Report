@@ -1,4 +1,3 @@
-<img width="1195" height="668" alt="map" src="https://github.com/user-attachments/assets/0ad7a537-4a7d-4849-b46d-f7c66d5610d3" />
 # 📊 Data Analytics Power BI Report
 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat\&logo=github\&logoColor=white)
