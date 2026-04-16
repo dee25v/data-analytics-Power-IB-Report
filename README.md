@@ -151,13 +151,33 @@ Below is a screenshot of the data model after the above steps:
 
 ---
 
+## SQL Analysis (Milestone 10)
+
+As part of the final milestone, I restored the PostgreSQL database from the provided `.sql` backup and connected to it locally.
+
+I then used SQL to answer key business questions, including:
+
+* total staff across UK stores
+* highest revenue month in 2022
+* highest revenue German store type in 2022
+* a sales summary view by store type
+* the most profitable product category for Wiltshire, United Kingdom in 2021
+
+For each question, I saved:
+
+* the SQL query as a `.sql` file
+* the result as a `.csv` file
+
+This milestone demonstrated my ability to use SQL directly to extract business insights outside of Power BI.
+
+---
+
 ## 📁 Files
 
 * Power BI Report (Data Analytics Power BI Report.pbix)
 * README.md
 
 ---
-
 ## 📜 License
 
 This project is for educational purposes.
