@@ -1,0 +1,2 @@
+\copy (SELECT * FROM store_sales_summary)
+TO '/Users/deepavalgi/Downloads/question_4.csv' CSV HEADER
